@@ -2,8 +2,7 @@ import 'package:BursayiKesfet/bloc/anasayfa_bloc.dart';
 import 'package:BursayiKesfet/bloc/anasayfa_bloc_provider.dart';
 import 'package:BursayiKesfet/bloc/fab_icon_bloc.dart';
 import 'package:BursayiKesfet/bloc/fab_icon_bloc_provider.dart';
-import 'package:BursayiKesfet/sayfalar/anasayfa.dart';
-import 'package:convex_bottom_bar/convex_bottom_bar.dart';
+
 import 'package:flutter/material.dart';
 
 class KategoriListe extends StatefulWidget {

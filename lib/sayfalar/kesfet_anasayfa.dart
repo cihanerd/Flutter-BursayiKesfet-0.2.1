@@ -246,7 +246,6 @@ class KesfetAnasayfaMekanlar extends StatefulWidget {
 }
 
 class _KesfetAnasayfaMekanlarState extends State<KesfetAnasayfaMekanlar> {
-  var _mySelection;
   AnasayfaBloc _anasayfaBloc;
   @override
   void didChangeDependencies() {
@@ -261,7 +260,6 @@ class _KesfetAnasayfaMekanlarState extends State<KesfetAnasayfaMekanlar> {
 
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
     return Container(
       width: MediaQuery.of(context).size.width,
       padding: EdgeInsets.only(top: 10, left: 10, right: 10, bottom: 20),
@@ -385,7 +383,6 @@ class KesfetAnasayfaRotalar extends StatefulWidget {
 
 class _KesfetAnasayfaRotalarState extends State<KesfetAnasayfaRotalar> {
   AnasayfaBloc _anasayfaBloc;
-  var _mySelection;
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
